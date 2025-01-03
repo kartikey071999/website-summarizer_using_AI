@@ -1,0 +1,58 @@
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore virtual environment directories
+venv/
+.env/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignore environment variables file
+.env
+.env.*
+
+# Ignore Poetry-specific files
+poetry.lock
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# Ignore logs and temporary files
+*.log
+*.temp
+*.bak
+*.swp
+*.swo
+*.DS_Store
+
+# Ignore IDE and editor files
+.idea/
+.vscode/
+*.code-workspace
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system-specific files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Ignore test output
+.coverage
+coverage.xml
+htmlcov/
+.pytest_cache/
+
+# Ignore generated documentation
+docs/_build/
+
+# Ignore specific tools
+.Python
+*.sqlite3
+*.db
